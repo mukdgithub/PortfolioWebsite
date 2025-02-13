@@ -117,7 +117,7 @@ nav ul li a:hover::after{
 }
 
 p {
-    font-size: 16px;
+    font-size: 19px;
     line-height: 1.4; 
 }
 
@@ -132,6 +132,7 @@ p {
     font-weight: 700;
     cursor: pointer;
     position: relative;
+    margin-top: 10px;
 }
 
 .tab-links::after{
@@ -151,8 +152,8 @@ p {
 
 .tab-contents ul li{
     list-style: none;
-    margin: 10px 0;
-    font-size: 16px;
+    margin: 15px 0;
+    font-size: 18px;
 }
 
 .tab-contents ul li span{
@@ -251,7 +252,7 @@ p {
 }
 
 .contact-left p{
-    margin-top: 40px;
+    margin-top: 30px;
     font-size: large;
 }
 
@@ -262,7 +263,7 @@ p {
 }
 
 .social-icons{
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 .social-icons a{
@@ -354,7 +355,7 @@ nav .fa-solid{
 
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
     #header{
         background-image: url(images/phone-background.png);
     }
@@ -406,8 +407,13 @@ nav .fa-solid{
         font-size: 16px;
         margin-right: 20px;
     }
-    .contact-left, .contact-right{
+    .contact-left{
         flex-basis: 100%;
+    }
+
+    .contact-right{
+        flex-basis: 100%;
+        margin-top: 30px;
     }
     .copyright{
         font-size: 14px;
