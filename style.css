@@ -272,12 +272,12 @@ p {
     margin-right: 15px;
     color: #ababab;
     display: inline-block;
-    transition: 0.2s;
+    transition: 0.4s;
 }
 
 .social-icons a:hover{
     color: #c82d2d;
-    transform: translateY(-8px);
+    transform: translateY(-10px);
 }
 
 .btn{
